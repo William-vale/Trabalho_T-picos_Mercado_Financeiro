@@ -5,8 +5,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html,
 body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background: #f4f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    flex: 1;
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
 }
 
 header {
