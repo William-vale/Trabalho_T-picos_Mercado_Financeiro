@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+}
+
+header {
+    background: linear-gradient(135deg,
+            #002855,
+            #00509e);
+
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.header-conteudo {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+.header-info {
+    margin-top: 25px;
+}
+
+.header-info span {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 18px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.busca {
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#buscar {
+    margin-bottom: 20px;
+}
+
+
+.info {
+    background: #eaf4ff;
+    color: #003366;
+    padding: 12px;
+    border-left: 4px solid #003366;
+    margin: 20px auto 10px;
+    border-radius: 5px;
+    position: relative;
+    width: 600px;
+    font-size: 12px;
+}
+
+
+button {
+    padding: 12px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0055aa;
+}
+
+.btn-pdf {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-pdf:hover {
+    background: #128b12;
+}
+
+.btn-artigo {
+    margin-right: 10px;
+}
+
+.artigo {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.artigo h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.artigo p {
+    margin-bottom: 8px;
+}
+
+.oportunidade {
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    margin: 40px auto 0;
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer strong {
+    color: #ffd700;
+}
