@@ -66,6 +66,32 @@ header p {
     font-size: 14px;
 }
 
+.rsl {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
+}
+
+.rsl h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.rsl ul {
+    list-style: none;
+}
+
+.rsl li {
+    padding: 12px;
+    margin-bottom: 8px;
+    background: #f4f8fc;
+    border-left: 4px solid #00509e;
+    border-radius: 5px;
+}
+
 main {
     width: 90%;
     max-width: 1000px;
@@ -73,21 +99,30 @@ main {
 }
 
 .busca {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
     margin-bottom: 30px;
+}
+
+.busca h2 {
+    margin-bottom: 15px;
+    color: #003366;
 }
 
 input {
     width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    outline: none;
+    transition: .3s;
 }
 
-#buscar {
-    margin-bottom: 20px;
+input:focus {
+    border-color: #00509e;
 }
-
 
 .info {
     background: #eaf4ff;
@@ -101,7 +136,6 @@ input {
     font-size: 12px;
 }
 
-
 button {
     padding: 12px;
     background: #003366;
@@ -110,45 +144,67 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 button:hover {
     background: #0055aa;
 }
 
+.btn-artigo,
 .btn-pdf {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background: green;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
 
-.btn-pdf:hover {
-    background: #128b12;
+    display: inline-block;
+
+    padding: 12px 18px;
+
+    margin-top: 15px;
+    margin-right: 10px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: .3s;
 }
 
 .btn-artigo {
-    margin-right: 10px;
+    background: #003366;
+    color: white;
+}
+
+.btn-artigo:hover {
+    background: #00509e;
+}
+
+.btn-pdf {
+    background: #1f8a3d;
+    color: white;
+}
+
+.btn-pdf:hover {
+    background: #27ae60;
 }
 
 .artigo {
     background: white;
-    padding: 20px;
+    padding: 25px;
+    border-radius: 15px;
     margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
+    transition: .3s;
+}
+
+.artigo:hover {
+    transform: translateY(-3px);
 }
 
 .artigo h3 {
     color: #003366;
     margin-bottom: 10px;
-}
-
-.artigo p {
-    margin-bottom: 8px;
+    line-height: 1.4;
 }
 
 .oportunidade {
@@ -157,13 +213,39 @@ button:hover {
 }
 
 footer {
-    margin: 40px auto 0;
-    background: #003366;
+
+    margin-top: auto;
+
+    background: #001f3f;
+
     color: white;
+
     text-align: center;
-    padding: 15px;
+
+    padding: 25px;
+
+    border-top: 4px solid #ffd700;
 }
 
 footer strong {
     color: #ffd700;
+    font-size: 16px;
+}
+
+.objetivo {
+    background: linear-gradient(135deg,
+            #003366,
+            #00509e);
+
+    color: white;
+
+    padding: 30px;
+
+    margin-top: 35px;
+
+    border-radius: 15px;
+}
+
+.objetivo h2 {
+    margin-bottom: 15px;
 }
