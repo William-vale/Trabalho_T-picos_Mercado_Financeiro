@@ -5,7 +5,8 @@
 
 Acesse a aplicação:
 
-🔗 https://williamdovale.github.io/pesquisa-mercado-capitais/
+🔗 [https://williamdovale.github.io/pesquisa-mercado-capitais/
+](https://william-vale.github.io/Trabalho_T-picos_Mercado_Financeiro/)
 
 Não é necessário instalar nenhum programa.
 Basta abrir o link acima em qualquer navegador.
