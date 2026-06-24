@@ -5,88 +5,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa no Mercado de Capitais</title>
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-
-
-
-    <header>
-
-        <div class="header-conteudo">
-
-            <h1>
-                Observatório da Literatura em Mercado de Capitais
-            </h1>
-
-
-            <p class="info">
-                As pesquisas apresentadas nesta plataforma são filtradas para o
-                contexto de Mercado de Capitais e organizadas segundo protocolo
-                de Revisão Sistemática da Literatura.
-            </p>
-
-
-            <div class="header-info">
-
-                <span>📚 Revisão Sistemática</span>
-
-                <span>📊 Base Scopus</span>
-
-                <span>📈 Mercado de Capitais</span>
-
-                <span>🔎 Estado da Arte</span>
-
-                <span>🌎 Acesso Público</span>
-
+<body class="bg-gray-50 font-sans">
+    <!-- Header aprimorado -->
+    <header class="bg-gradient-to-r from-blue-900 to-indigo-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-4">Observatório da Literatura em Mercado de Capitais</h1>
+            <p class="text-lg max-w-5xl mx-auto">Plataforma baseada em Revisão Sistemática de Literatura (RSL) para
+                pesquisadores iniciantes e experientes.</p>
+            <div class="flex flex-wrap justify-center gap-3 mt-8">
+                <span class="px-4 py-2 bg-white/20 rounded-full text-sm">📚 RSL</span>
+                <span class="px-4 py-2 bg-white/20 rounded-full text-sm">📊 OpenAlex</span>
+                <span class="px-4 py-2 bg-white/20 rounded-full text-sm">📈 Mercado de Capitais</span>
+                <span class="px-4 py-2 bg-white/20 rounded-full text-sm">🔎 Estado da Arte</span>
+                <span class="px-4 py-2 bg-white/20 rounded-full text-sm">🌎 Acesso Público</span>
             </div>
-
         </div>
-
     </header>
 
 
-    <section class="objetivo">
 
-        <h2>Objetivo da Plataforma</h2>
+    <!-- Seção Protocolo RSL - Design Melhorado -->
+    <section class="max-w-5xl mx-auto px-6 py-12">
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
 
-        <p>
-            Facilitar o acesso ao estado da arte da literatura científica
-            em Mercado de Capitais, apoiando pesquisadores na identificação
-            de tendências, lacunas e oportunidades de pesquisa.
-        </p>
+            <!-- Header -->
+            <div class="bg-gradient-to-r from-blue-900 to-indigo-800 px-10 py-8 text-white">
+                <div class="flex items-center gap-4">
+                    <div
+                        class="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-3xl">
+                        📘
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold">Protocolo de Revisão Sistemática da Literatura (RSL)</h2>
+                        <p class="text-blue-100 mt-1 text-lg">Metodologia adotada para construção do estado da arte</p>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Conteúdo -->
+            <div class="p-10 grid md:grid-cols-2 gap-8">
+
+                <div class="space-y-8">
+                    <div class="flex gap-5">
+                        <div
+                            class="w-8 h-8 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-semibold flex-shrink-0">
+                            1</div>
+                        <div>
+                            <p class="font-semibold text-gray-800">Área de Estudo</p>
+                            <p class="text-gray-600 mt-1">Mercado de Capitais</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-5">
+                        <div
+                            class="w-8 h-8 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-semibold flex-shrink-0">
+                            2</div>
+                        <div>
+                            <p class="font-semibold text-gray-800">Tipo de Documento</p>
+                            <p class="text-gray-600 mt-1">Artigos Científicos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <div class="flex gap-5">
+                        <div
+                            class="w-8 h-8 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-semibold flex-shrink-0">
+                            3</div>
+                        <div>
+                            <p class="font-semibold text-gray-800">Objetivo</p>
+                            <p class="text-gray-600 mt-1">Identificar o estado da arte da literatura</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-5">
+                        <div
+                            class="w-8 h-8 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-semibold flex-shrink-0">
+                            4</div>
+                        <div>
+                            <p class="font-semibold text-gray-800">Público-alvo</p>
+                            <p class="text-gray-600 mt-1">Pesquisadores (principalmente iniciantes)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer / Fonte -->
+            <div
+                class="bg-gray-50 px-10 py-6 border-t border-gray-100 text-sm text-gray-500 flex items-center justify-between">
+                <p>Baseado no protocolo de Barry et al. (2022)</p>
+                <span class="text-emerald-600 font-medium">✓ Metodologia Sistemática</span>
+            </div>
+        </div>
     </section>
 
-
-    <section class="rsl">
-
-        <h2>Protocolo de Revisão Sistemática da Literatura (RSL)</h2>
-
-        <ul>
-            <li>Área de Estudo: Mercado de Capitais</li>
-            <li>Base Principal: Scopus</li>
-            <li>Tipo de Documento: Artigos Científicos</li>
-            <li>Objetivo: Identificar o estado da arte da literatura</li>
-            <li>Público-alvo: Pesquisadores iniciantes e experientes</li>
-        </ul>
-
-    </section>
-
-    <main>
-
-        <section class="busca">
-
-            <h2>Buscar Artigos</h2>
-
-            <input type="text" id="pesquisa" placeholder="Digite um tema...">
-            <button id="buscar">Buscar Artigos</button>
-            <div id="resultados"></div>
-
+    <main class="max-w-6xl mx-auto px-6">
+        <!-- Seção Busca -->
+        <section id="busca" class="bg-white p-8 rounded-2xl shadow">
+            <h2 class="text-3xl font-semibold mb-6 text-gray-800">Buscar Artigos</h2>
+            <div class="flex gap-4">
+                <input type="text" id="pesquisa"
+                    class="flex-1 px-6 py-4 border border-gray-300 rounded-xl focus:outline-none focus:border-indigo-500"
+                    placeholder="Ex: sustainable finance, risk management...">
+                <button id="buscar"
+                    class="px-10 bg-indigo-700 hover:bg-indigo-800 text-white font-semibold rounded-xl transition">Buscar</button>
+            </div>
+            <div id="resultados" class="mt-10 space-y-6"></div>
         </section>
-
     </main>
 
 
@@ -96,7 +125,6 @@
             <strong>William do Vale</strong>
         </p>
     </footer>
-
 
     <script src="./js/script.js"></script>
 
