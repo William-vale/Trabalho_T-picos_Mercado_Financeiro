@@ -19,8 +19,11 @@ botao.addEventListener("click", async () => {
             .getElementById("pesquisa")
             .value;
 
+        let termoMercadoCapitais =
+            "capital market OR stock market OR equity market";
+
         let pesquisaFinal =
-            `Capital Market ${tema}`;
+            `(${termoMercadoCapitais}) ${tema}`;    
 
         let resposta = await fetch(
             `https://api.openalex.org/works?search=${encodeURIComponent(pesquisaFinal)}&per_page=10`
@@ -73,7 +76,6 @@ botao.addEventListener("click", async () => {
                         href="${doi}"
                         target="_blank"
                         class="btn-artigo">
-
                         Abrir Artigo
                     </a>
                 `;
@@ -86,7 +88,6 @@ botao.addEventListener("click", async () => {
                         href="${pdf}"
                         target="_blank"
                         class="btn-pdf">
-
                         Ver PDF
                     </a>
                 `;
